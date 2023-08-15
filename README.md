@@ -46,25 +46,25 @@ Created the second VM (Client-1) on the Windows 10 server.
 <p>
 Established Domain Controller’s NIC Private IP address to be static.
 
-To Ensure Connectivity between the client and Domain Controller
+To Ensure Connectivity between the client and Domain Controller.
   
 Login in to Client-1 with Remote Desktop and pinged DC-1’s private IP address with ping -t.
 
 Connectivitity failed due to ICMPv4 networking rules being disabled.
 
-Login to the Domain Controller to configure/enable ICMPv4 in on the local windows Firewall
+Login to the Domain Controller to configure/enable ICMPv4 in on the local windows Firewall.
 
-Check back at Client-1 to see the ping succeed
+Check back at Client-1 to see the ping succeed.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/BmNJMji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Wo4wh7x.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install Active Directory Domain Services
+Install Active Directory Domain Services.
 
-On the Domain Controller(DC-1)
+On the Domain Controller(DC-1).
   
 Setup a new forest as mydomain.com
 
@@ -75,17 +75,24 @@ created a name domain name "mydomain.com"
 <br />
 
 <p>
-<img src="hhttps://i.imgur.com/BmNJMji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BmNJMji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+set Client-1’s DNS settings to the DC-1’s Private IP address.
+
+From the Azure Portal, restart Client-1.
+
+Login to Client-1 (Remote Desktop) as the original local admin and join it to the domain.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/43FmuNM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Within the Administrator account;
+  
+manage Users, Groups, and Organizational units to assign effective permissions to the necessary accounts.
 </p>
 <br />
