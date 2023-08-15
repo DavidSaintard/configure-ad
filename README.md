@@ -44,27 +44,38 @@ Created the second VM (Client-1) on the Windows 10 server.
 <img src="https://i.imgur.com/HUgxV0b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Established Domain Controller’s NIC Private IP address to be static.
+
+To Ensure Connectivity between the client and Domain Controller
+  
+Login in to Client-1 with Remote Desktop and pinged DC-1’s private IP address with ping -t.
+
+Connectivitity failed due to ICMPv4 networking rules being disabled.
+
+Login to the Domain Controller to configure/enable ICMPv4 in on the local windows Firewall
+
+Check back at Client-1 to see the ping succeed
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BmNJMji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Established Domain Controller’s NIC Private IP address to be static. 
-To Ensure Connectivity between the client and Domain Controller
-Logged in to Client-1 with Remote Desktop and pinged DC-1’s private IP address with ping -t <ip address>
-Connectivitity failed due to ICMPv4 networking rules being disabled.
-Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
-Check back at Client-1 to see the ping succeed
+Install Active Directory Domain Services
+
+On the Domain Controller(DC-1)
+  
+Setup a new forest as mydomain.com
+
+created a name domain name "mydomain.com"
 
   
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="hhttps://i.imgur.com/BmNJMji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
