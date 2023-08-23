@@ -75,7 +75,7 @@ created a name domain name "mydomain.com"
 <br />
 
 <p>
-<img src="https://i.imgur.com/BmNJMji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Lpyb8OZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 set Client-1’s DNS settings to the DC-1’s Private IP address.
