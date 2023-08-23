@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/gF2sOQe.png" alt="Active Directory Logo"/>
+<img src="https://i.imgur.com/E4vN6vh.png" alt="Active Directory Logo"/>
 </p>
 
 <h1>Active Directory - Prerequisites and Installation</h1>
